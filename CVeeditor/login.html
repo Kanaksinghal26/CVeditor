@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-image: url("bg_img.png");
+      }
+
+      .box {
+        /* border: 0.5px solid rgba(0, 0, 0, 0.708); */
+        box-shadow:0 0 20px 0px white;
+        margin-top: 10vh;
+        margin-left: 35vw;
+        height: 75vh;
+        width: 28vw;
+        background-color: white;
+        border-radius: 15px;
+      }
+
+      .e1 {
+        text-align: center;
+        margin-top: 5vh;
+        font-size: 2em;
+        font-family: "Rubik", sans-serif;
+    }
+    
+      .e2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 5vh;
+    }
+
+      .e3 {
+          display: flex;
+          justify-content: center;
+        margin-top: 6vh;
+        border-radius: 10px;
+    }
+    
+    input{
+        width: 15vw;
+          height: 4.5vh;
+          border-radius: 10px;
+          padding-left: 1vw;
+          border: 1px solid rgba(0, 0, 0, 0.5);
+        }
+        
+        .e4{
+            margin-top: 6vh;
+            display: flex;
+            justify-content: center;
+            height: 6vh;
+          
+        }
+        
+        button{
+          width: 8vw;
+          background-color: rgba(0, 0, 255, 0.59);
+          color: white;
+          font-weight: 700;
+        border: 0ch;
+        border-radius: 5px;
+        font-size: 1.0em;
+      }
+
+      .e5{
+          margin-top: 20vh;
+          text-align: center;
+          color: blue;
+          font-family: "Rubik", sans-serif;
+          cursor: pointer;
+        }
+
+        button:hover{
+            cursor: pointer;
+            background-color: blue;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="e1">Login</div>
+      <div class="e2"><input type="email" name="email" id="email" placeholder="email" /></div>
+      <div class="e3">
+        <input type="password" name="password" id="password" placeholder="password" />
+      </div>
+      <div class="e4"><button>LOGIN</button></div>
+      <div class="e5">SignUp</div>
+    </div>
+  </body>
+</html>
